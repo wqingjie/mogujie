@@ -1,0 +1,298 @@
+html, body, div, p, ul, li, span, a, img, em, i, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, h7 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a, i {
+    text-decoration: none;
+    font-style: normal;
+}
+
+img {
+    border: 0;
+}
+
+a:hover, a:active a:link, i:hover, i:active i:link {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/*注册页 头部*/
+.w900 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.enroll_head .w900 .enroll_logo {
+    height: 57px;
+    padding-top: 30px;
+}
+
+.enroll_head .w900 .enroll_logo a {
+    display: block;
+    width: 220px;
+    height: 52px;
+    background: url("../img/logo.png") no-repeat;
+}
+
+.enroll_head .w900 .enroll_body {
+    padding-top: 40px;
+    height: 500px;
+}
+
+.rg_right {
+    width: 362px;
+    float: right;
+    display: inline;
+    border: 1px solid #dcdcdc;
+}
+
+.rg_right h3 {
+    font-size: 14px;
+    color: #333;
+    padding: 7px 40px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+}
+
+.rg_right form {
+    overflow: hidden;
+    padding: 20px 30px 0 40px;
+}
+
+input {
+    outline: none;
+}
+
+select, input {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 102px;
+    height: 30px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.phone, .pass {
+    padding-left: 5px;
+    height: 26px;
+    width: 163px;
+    line-height: 26px;
+    color: #999999;
+    font-size: 13px;
+}
+
+.pass {
+    height: 26px;
+    line-height: 26px;
+}
+
+.getCode {
+    display: block;
+    float: left;
+    margin-bottom: 15px;
+    width: 102px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    background: #f55;
+    font-size: 13px;
+    color: #fff;
+}
+.pics{
+    display: none;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    height: 90px;
+    width: 100%;
+    overflow: hidden;
+}
+.pics span{
+    float: left;
+    color: #666;
+    background: none;
+    line-height: 14px;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+.pics a{
+    position: absolute;
+    top: 0;
+    right: 9px;
+    color: #999!important;
+    text-decoration: underline;
+    line-height: 14px;
+    font-size: 13px;
+}
+
+.pics .pic_f{
+    display: block;
+    padding-top: 7px;
+    float: left;
+}
+.pics .pic_f span{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 1px;
+    width: 68px;
+    height: 68px;
+    float: left;
+    cursor: pointer;
+    background-image: url("../img/yanz.png");
+    background-position-x: 0;
+    background-position-y: 0;
+}
+
+.pics .pic_f .pic_2{
+    background-position-x: -75px;
+}
+.pics .pic_f .pic_3{
+    background-position-x: -150px;
+}
+.pics .pic_f .pic_4{
+    background-position-x: -225px;
+}
+
+.join {
+    height: 30px;
+    line-height: 30px;
+    width: 282px;
+    background: #f55;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #333;
+}
+
+.agreement {
+    font-size: 12px;
+    color: #333;
+    letter-spacing: -1px;
+}
+
+.agreement a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.login {
+    height: 13px;
+    padding: 0 40px 30px 0;
+}
+
+.login a {
+    float: right;
+    font-size: 12px;
+    color: #666;
+    text-decoration: underline;
+}
+
+.rg_left {
+    float: left;
+    padding: 20px 0 0 40px;
+    width: 400px;
+}
+
+/*foot*/
+.enroll_foot {
+    overflow: hidden;
+    margin-top: 40px;
+    height: 222px;
+    background: url("../img/foot_16x16.png");
+}
+
+.enroll_foot .w900 {
+    padding-top: 25px;
+}
+
+.enroll_foot .enroll_foot_t {
+    height: 156px;
+}
+
+.enroll_foot .enroll_foot_t .enroll_foot_t-l {
+    float: left;
+    overflow: hidden;
+}
+
+.enroll_foot .enroll_foot_t .enroll_foot_t-l div {
+    float: left;
+    width: 130px;
+    height: 152px;
+}
+
+.enroll_foot .enroll_foot_t .enroll_foot_t-l div h3 {
+    padding: 3px 0 12px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.enroll_foot .enroll_foot_t .enroll_foot_t-l div a {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    font-size: 12px;
+}
+
+.enroll_foot .enroll_foot_t .enroll_foot_t-r {
+    float: right;
+    width: 180px;
+}
+
+.enroll_foot .enroll_foot_t .enroll_foot_t-r h3 {
+    margin-top: 3px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+.enroll_foot .enroll_foot_t .enroll_foot_t-r a{
+    display: block;
+    height: 76px;
+    width: 180px;
+    background: url("../img/donw_180x76.png") no-repeat;
+}
+
+.enroll_foot_b {
+    text-align: center;
+    color: #999;
+    border-top: 1px dashed #dcdcdc;
+    height: 40px;
+    line-height: 40px;
+    font-family: tahoma, arial, sans-serif;
+    font-size: 12px;
+}
+#error_tip{
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    width: 240px;
+    height: 30px;
+    line-height: 32px;
+    border: 1px solid #ffd797;
+    background: url("../img/o613k_16x16.png") no-repeat 15px 7px;
+    color: #ff5783;
+    font-size: 13px;
+}
+
+
+
