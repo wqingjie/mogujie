@@ -383,7 +383,7 @@ function underline(ele) {
     };
     bannerL.onmouseout = function () {
         leftBtn.style.display = rightBtn.style.display = "none";
-        timer = window.setInterval(autoMove, 2000);
+        timer = window.setInterval(autoMove, 3500);
     };
 
     leftBtn.onclick = function () {
